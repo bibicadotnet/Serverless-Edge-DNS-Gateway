@@ -55,10 +55,10 @@ The parameters below are pre-configured with optimal defaults.
 ### Edge Filtering (Optimization)
 | Constant | Default | Description |
 | :--- | :--- | :--- |
-| `BLOCK_AAAA` | `true` | Forces IPv4 routing by blocking AAAA. |
-| `BLOCK_HTTPS` | `true` | Prevents Type 65 lookups (speeds up resolution). |
-| `BLOCK_ANY` | `true` | Blocks resource-heavy ANY queries. |
-| `BLOCK_PTR` | `true` | Blocks reverse DNS queries. |
+| `BLOCK_AAAA` | `false` | Forces IPv4 routing by blocking AAAA. |
+| `BLOCK_HTTPS` | `false` | Prevents Type 65 lookups (speeds up resolution). |
+| `BLOCK_ANY` | `false` | Blocks resource-heavy ANY queries. |
+| `BLOCK_PTR` | `false` | Blocks reverse DNS queries. |
 | `BLOCK_PRIVATE_TLD` | `true` | Blocks internal/router domains. |
 | `ECS_INJECTION_ENABLED` | `true` | Enables ECS Injection (Required for accurate CDN). |
 
