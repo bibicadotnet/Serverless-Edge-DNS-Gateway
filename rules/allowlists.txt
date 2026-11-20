@@ -12,6 +12,7 @@ vault.bitwarden.com
 vault.bitwarden.eu
 pagead2.googlesyndication.com
 payment.rewards.brave.com
+api.windscribe.com
 umami.is
 controld.com
 tolt.io
