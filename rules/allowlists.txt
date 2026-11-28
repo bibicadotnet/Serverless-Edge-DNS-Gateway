@@ -626,6 +626,7 @@ t1-2.p-cdn.us
 t1-4.p-cdn.us
 t1-3.p-cdn.us
 t1-5.p-cdn.us
+gql-graphql-gateway.prod.k8s.onepeloton.com
 service-hub-builder-ga.prd.pluto.tv
 service-media-catalog.clusters.pluto.tv
 service-recommender.clusters.pluto.tv
